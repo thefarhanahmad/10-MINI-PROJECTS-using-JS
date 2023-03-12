@@ -1,0 +1,28 @@
+h1 {
+    background-color: red;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button:active{
+    color: white;
+    background-color: gray;
+    box-shadow: 0px 0px 20px rgb(210, 203, 203);
+}

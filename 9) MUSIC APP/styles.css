@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.btn {
+    background-color: rgb(13, 71, 71);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    margin: 1rem;
+
+}

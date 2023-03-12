@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    box-shadow: 2px 2px 5px rgb(93, 69, 69);
+    border-radius: 10px;
+    overflow: hidden;
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.images {
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+
+
+
+}
+
+img {
+    /* height:; */
+    width: 100%;
+    object-fit: contain;
+}

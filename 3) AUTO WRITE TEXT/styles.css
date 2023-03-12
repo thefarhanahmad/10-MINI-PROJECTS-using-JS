@@ -1,0 +1,13 @@
+h1 {
+    background-color: red;
+}
+
+body {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(300px);
+}
